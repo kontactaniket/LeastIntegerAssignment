@@ -3,4 +3,6 @@
 2. LOGIC:
 	The method findLeastNumber() is called recursively which start comparing elements from the middle index of the array. It compares addition of middle element and next with middle element and previous element.
 	This comparison gives the direction in which we least number should be found. This logic eliminates half of the array in each iteration so time complexity becomes O(log n)
+	The only scenario were the array will be scanned in both the direction if is has same numbers for Example: {5,5,5,5,5,5,5,5,5} 
+	in which case it can't find out which direction to follow and time complexity becomes O(n)
 3. There are few test cases which covers different scenarios.	
