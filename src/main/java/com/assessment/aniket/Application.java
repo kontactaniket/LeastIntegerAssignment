@@ -30,7 +30,7 @@ public class Application {
 		} else{
 			int number1 = findLeastNumber(Arrays.copyOf(args, pointer),pointer);
 			int number2 = findLeastNumber(Arrays.copyOfRange(args, pointer, args.length),pointer);
-			return number1>number2?number1:number2;
+			return number1<number2?number1:number2;
 		}
 	}
 }
