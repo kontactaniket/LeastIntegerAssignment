@@ -1,4 +1,4 @@
-package com.assessment.aniket.LestIntegerAssessment.springbootquickstart;
+package com.assessment.aniket;
 
 import java.util.Arrays;
 

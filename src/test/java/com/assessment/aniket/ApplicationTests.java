@@ -1,8 +1,9 @@
-package com.tapwater.archetypes.springbootquickstart;
+package com.assessment.aniket;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import com.assessment.aniket.LestIntegerAssessment.springbootquickstart.Application;
+
+import com.assessment.aniket.Application;
 
 public class ApplicationTests {
 	
